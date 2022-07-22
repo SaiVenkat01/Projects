@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+h6{
+    color:honeydew;
+}
+.buttons{
+    display:flex;
+    
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+button{
+    flex-shrink: 1;
+    background-color: black;
+    width: auto;
+    height: auto;
+}
+h4{
+    color: peachpuff;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#restart{
+   color: honeydew;
+}
+button:hover{
+    border-color: cadetblue;
+}
+button img{
+    flex-shrink: 1;
+    max-width: 100%;
+    width: 180px;
+    height: auto;
+}

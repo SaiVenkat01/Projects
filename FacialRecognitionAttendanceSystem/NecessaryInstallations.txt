@@ -1,0 +1,11 @@
+
+pip install cmake
+pip install dlib
+
+if having issues in downloading dlib
+add dlib files in repository ,download them
+pip install C:\Users\saiv\Downloads\Dlib-python whl packages\dlib-19.22.99-cp310-cp310-win_amd64.whl
+My python version is 3.10 ,so installed 310.If lower version then download according to that.
+
+pip install face_recognition
+pip install opencv-python
